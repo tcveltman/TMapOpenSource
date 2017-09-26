@@ -1,8 +1,26 @@
-One of the most important goals of testing is a clear advise on quality and risk in such a way that all the parties involved gain confidence in the product. 
-To be able to do this, a tester has to gather information on system behavior. 
-One of the main tools in gathering information is the executing test cases. 
-The results of those cases give information on the system behavior. 
-The main questions are: Which testcases? How many? And how do we get those cases? 
-In answering those questions test design is indispensible. 
+---
+layout: page
+title: "Developers"
+description: "Everything you need to know to get started with Home Assistant development."
+date: 2016-04-16 10:28 +07:00
+sidebar: true
+comments: false
+sharing: true
+footer: true
+og_image: /images/architecture/component_interaction.png
+---
 
-Designing the right set of test cases is the essential link between the test strategy and the implementation of the test strategy -  the tests that are executed. See the picture below for the link between the relevant terms in test design:
+Welcome to the Home Assistant development documentation. This is the place to learn all about how Home Assistant works and how you can extend it with support for your devices and services!
+
+<p class='img'>
+<img src='/images/architecture/component_interaction.png' alt='Diagram showing interaction between components and the Home Assistant core.'>
+Diagram showing interaction between components and the Home Assistant core.
+</p>
+
+The best way to familiarize yourself with Home Assistant is to watch the PyCon 2016 talk about Home Assistant and read through the [Python API docs].
+
+<div class='videoWrapper'>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Cfasc9EgbMU" frameborder="0" allowfullscreen></iframe>
+</div>
+
+[Python API docs]: https://dev-docs.home-assistant.io
