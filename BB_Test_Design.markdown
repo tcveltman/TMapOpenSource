@@ -1,9 +1,5 @@
 ***Test Design***
 
-<p class='note'>
-We care about privacy. Collected data is <b>only</b> stored in your instance of Home Assistant.
-</p>
-
 **What is test design?**
 
 One of the most important goals of testing is a clear advise on quality and risk in such a way that all the parties involved gain confidence in the product. 
@@ -13,3 +9,7 @@ How many? And how do we get those cases? In answering those questions test desig
 Designing the right set of [test cases](http://www.tmap.net/wiki/test-cases) is the essential link between the test strategy and the implementation of the test strategy -  the tests that are executed. 
 See the picture below for the link between the relevant terms in test design: 
 
+<p class='img'>
+<img src='/images/screenshots/map.png' />
+Screenshot of Home Assistant showing a school, work and home zone and two people.
+</p>
